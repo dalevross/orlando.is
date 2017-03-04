@@ -7,12 +7,12 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button><a href="{{ route('home') }}" class="navbar-brand">
-            <i class="fa fa-cube"></i> Project name</a>
+            <i class="fa fa-cube"></i> Orlando Is</a>
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
                 <li class="{{ request()->path() == "/" ? 'active' : 'n' }}"><a href="{{ route('home') }}">Home</a></li>
-                <li class="{{ request()->path() == "api" ? 'active' : 'n' }}"><a href="{{ route('api') }}">API Examples</a></li>
+                <!--<li class="{{ request()->path() == "api" ? 'active' : 'n' }}"><a href="{{ route('api') }}">API Examples</a></li>-->
                 <li class="{{ request()->path() == "contact" ? 'active' : 'n' }}"><a href="{{ route('contact') }}">Contact</a></li>
             </ul>
 

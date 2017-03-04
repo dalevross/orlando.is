@@ -2,8 +2,8 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width">
-    <title>Laravel Hackathon Starter App</title>
-    <meta name="description" content="This is a boilerplate for building Hackathon apps">
+    <title>Orlando Is</title>
+    <meta name="description" content="This is an application to showcase what Orlando has to offer">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.12.0/bootstrap-social.min.css">
@@ -18,15 +18,15 @@
     </div>
     <footer class="footer">
         <div class="container text-center">
-        <p class="pull-left">© 2015 Company, Inc. All Rights Reserved</p>
-        <ul class="pull-right list-inline">
+        <p class="pull-left">© 2017 Ross Squared, LLC. All Rights Reserved</p>
+        <!--<ul class="pull-right list-inline">
             <li>
                 <a href="https://github.com/unicodeveloper/laravel-hackathon-starter">GitHub Project</a>
             </li>
             <li>
                 <a href="https://github.com/unicodeveloper/laravel-hackathon-starter/issues">Issues</a>
             </li>
-        </ul>
+        </ul>-->
         </div>
     </footer>
 
