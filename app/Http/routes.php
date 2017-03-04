@@ -29,6 +29,24 @@ Route::group(['middleware' => ['web']], function () {
     'as' => 'home', 'uses' => 'PageController@home'
         ]);
 
+    Route::get('/', [
+    'as' => 'people', 'uses' => 'PageController@people'
+        ]);
+
+    Route::get('/', [
+    'as' => 'places', 'uses' => 'PageController@places'
+        ]);
+
+    Route::get('/', [
+    'as' => 'animals', 'uses' => 'PageController@animals'
+        ]);
+
+    Route::get('/', [
+    'as' => 'things', 'uses' => 'PageController@things'
+        ]);
+
+
+
     Route::get('/api', [
     'as' => 'api', 'uses' => 'PageController@api'
         ]);

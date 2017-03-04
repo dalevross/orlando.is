@@ -7,7 +7,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button><a href="{{ route('home') }}" class="navbar-brand">
-            <i class="fa fa-cube"></i> Orlando Is</a>
+            <i class="fa  fa-id-badge"></i> Orlando Is</a>
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">

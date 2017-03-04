@@ -13,6 +13,45 @@
         {
             return view('welcome');
 
+        }
+
+        /**
+         * Return the people view
+         * @return mixed
+         */   
+        public function people()
+        {
+            return view('people');
+
+        }
+
+        /**
+         * Return the places view
+         * @return mixed
+         */   
+        public function places()
+        {
+            return view('places');
+
+        } 
+
+        /**
+         * Return the places view
+         * @return mixed
+         */   
+        public function animals()
+        {
+            return view('animals');
+
+        }
+
+         /**
+         * Return the places view
+         * @return mixed
+         */   
+        public function things()
+        {
+            return view('things');
         } 
 
         /**
