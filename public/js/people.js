@@ -27,7 +27,7 @@ $('document').ready(function() {
         $('div#people').append("<div id='" + person.id + "'><span>Name: " + person.name + "</span><br/><span>Chosen Name: " + person.name + "</span><ul id=s" + person.id + "></ul></div>");
         $.each(person.art, function(index2, art) {
             if (art.type === "link")
-                $('ul#s' + person.id).append("<li><a src='" + art.value + "'></a></li>");
+                $('ul#s' + person.id).append("<li><a href='" + art.value + "'></a></li>");
             else if (art.type === "image")
                 $('ul#s' + person.id).append("<li><img src='" + art.value + " width='100px'></img></li>");
         });
