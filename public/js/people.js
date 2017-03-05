@@ -29,7 +29,7 @@ $('document').ready(function() {
             if (art.type === "link")
                 $('ul#s' + person.id).append("<li><a src='" + art.value + "'></a></li>");
             else if (art.type === "image")
-                $('ul#s' + person.id).append("<li><img src='" + art.value + "'></img></li>");
+                $('ul#s' + person.id).append("<li><img src='" + art.value + " width='100px'></img></li>");
         });
     });
 });
