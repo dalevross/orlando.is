@@ -16,7 +16,7 @@ var people = [{
         name: 'George C. Meyers',
         id: 'george',
         chosenname: 'George',
-        art: [{ type: 'image', value: 'https://scontent.ftpa1-2.fna.fbcdn.net/v/t31.0-8/14991146_10157820299320374_4412630560657900217_o.jpg?oh=4215f7b4d14545e6496ab089764367c1&oe=5932AD76' }, { type: 'image', value: 'https://scontent.ftpa1-2.fna.fbcdn.net/v/t31.0-8/15250741_10157910426045374_886165682930995388_o.jpg?oh=313be6495fc3d91b376c5985527a3bf9&oe=592B0224' }]
+        art: [{ type: 'image', value: 'https://scontent.ftpa1-2.fna.fbcdn.net/v/t31.0-8/14991146_10157820299320374_4412630560657900217_o.jpg?oh=4215f7b4d14545e6496ab089764367c1&oe=5932AD76' }, { type: 'image', value: 'https://scontent.ftpa1-2.fna.fbcdn.net/v/t1.0-0/s261x260/15327426_10157910426045374_886165682930995388_n.jpg?oh=b1795af486e27941ff4f2038a3d06e69&oe=596BD971' }]
 
     }
 ];
