@@ -2,6 +2,10 @@
 
     namespace App\Http\Controllers;
 
+    use App\Book;
+    use App\Http\Requests;
+    use App\Http\Controllers\Controller;
+
     class PageController extends Controller
     {
         
@@ -12,16 +16,6 @@
         public function home()
         {
             return view('welcome');
-
-        }
-
-        /**
-         * Return the people view
-         * @return mixed
-         */   
-        public function people()
-        {
-            return view('people');
 
         }
 

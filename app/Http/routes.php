@@ -30,7 +30,7 @@ Route::group(['middleware' => ['web']], function () {
         ]);
 
     Route::get('/people', [
-    'as' => 'people', 'uses' => 'PageController@people'
+    'as' => 'people', 'uses' => 'PeopleController@people'
         ]);
 
     Route::get('/places', [
